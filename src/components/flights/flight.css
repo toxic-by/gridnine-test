@@ -1,0 +1,18 @@
+.flight {
+    margin-top: 20px;
+    margin-right: 10px;
+    flex-basis: 50%;
+}
+
+.flight-block__header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(28, 203, 226);
+    padding: 5px;
+}
+.flight-block:not(:last-child) {
+    margin-bottom: 20px;
+}
+.load-button {
+    text-align: center;
+}

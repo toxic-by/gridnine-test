@@ -7,8 +7,6 @@ import App from "./components/app/";
 
 import "./index.css";
 
-const unsubscribe = store.subscribe(() => console.log("State after dispatch: ", store.getState()));
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>

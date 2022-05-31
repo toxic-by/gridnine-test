@@ -1,0 +1,6 @@
+.carriers {
+    margin-bottom: 10px;
+}
+.single-carrier.disabled {
+    color: rgb(230, 230, 230);
+}

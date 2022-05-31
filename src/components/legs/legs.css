@@ -1,0 +1,23 @@
+.leg__transfer {
+    text-align: center;
+    color: orange;
+}
+.choose-button {
+    background-color: orange;
+}
+.travel-time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.travel-cities {
+    display: flex;
+    justify-content: space-between;
+}
+.travel-cities__uid {
+    color: rgb(62, 109, 236);
+}
+.choose-button {
+    padding: 5px;
+    text-align: center;
+}

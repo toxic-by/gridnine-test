@@ -18,7 +18,6 @@ const formattedTravelTime = (start, end) => {
     const diff = second - first;
     const diffwithoutTimeZone = diff + first.getTimezoneOffset() * 60000;
     const timeInstance = new Date(diffwithoutTimeZone);
-    console.log(diff);
     return {
         time: diff,
         caption: `${timeInstance.getHours()}ч ${timeInstance.getMinutes()}мин`,
@@ -32,9 +31,19 @@ const getLegsTotalTime = (array) => {
     }, 0);
 };
 
+function min() {
+    var par = [];
+    for (var i = 0; i < arguments.length; i++) {
+        if (!isNaN(arguments[i])) {
+            par.push(arguments[i]);
+        }
+    }
+    return Math.min.apply(Math, par);
+}
 export {
     getRandomId,
     formattedTravelDate,
     formattedTravelTime,
     getLegsTotalTime,
+    min,
 };
